@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Title */
+.container h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input Fields */
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input input[type="text"],
+.input select,
+.input input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.input input[type="text"]:focus,
+.input select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Submit Button */
+.submit {
+    text-align: center;
+}
+
+.submit input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #0056b3;
+}
